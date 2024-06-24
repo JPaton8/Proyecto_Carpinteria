@@ -1,0 +1,61 @@
+
+:root{
+    --MarronMadera: #8B4513;
+    --BeigeClaro: #F5F5DC;
+    --VerdeSuave: #556B2F;
+}
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.seccion {
+    padding: 20px;
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px; 
+}
+
+picture {
+    display: block;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.resumen-propiedad {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.precio:nth-child(1){
+    font-size: 3rem; 
+    color: var(--MarronMadera); 
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+
+.resumen-propiedad p {
+    font-size: 1.6rem; 
+    color: #555;
+    line-height: 1.8; 
+    margin-bottom: 20px; 
+}

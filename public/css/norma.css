@@ -1,0 +1,57 @@
+:root{
+    --MarronMadera: #8B4513;
+    --BeigeClaro: #F5F5DC;
+    --VerdeSuave: #556B2F;
+}
+/* Estilos generales */
+/* Estilos generales */
+.header {
+    padding: 0;
+}
+
+.navegacion a {
+    color: var(--MarronMadera);
+    text-decoration: none;
+    font-size: 2.2rem; /* Ajusté el tamaño de la letra para que sea un poco más grande */
+    display: block;
+    text-align: center;
+}
+
+.navegacion a:hover {
+    color: var(--MarronMadera);
+}
+
+
+.header.inicio {
+    background: var(--BeigeClaro);
+    background-position: center center;
+    background-size: cover;
+    min-height: 8vh;
+}
+
+@media screen and (min-width: 48em) {
+    .header {
+        height: 30vh;
+    }
+
+    .navegacion a {
+        font-size: 1.8rem;
+    }
+}
+
+
+.contenido-header {
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
